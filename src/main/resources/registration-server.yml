@@ -7,6 +7,7 @@ spring.autoconfigure.exclude: org.springframework.boot.autoconfigure.jdbc.DataSo
 eureka:
   instance:
     hostname: localhost
+    preferIpAddress: true
   client:  # Not a client, don't register with yourself
     registerWithEureka: false
     fetchRegistry: false
